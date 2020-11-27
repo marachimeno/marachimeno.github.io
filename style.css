@@ -78,7 +78,22 @@ a {
 
 .down-arrow {
   position: relative;
-  top: -85px;
+  top: -147px;
 }
 
+.fs-14 {
+  font-size: 10px;
+}
 
+.arrow-info {
+  /*display: none;*/
+}
+
+.arrow-info:hover {
+  display: show;
+}
+
+.down-arrow-info {
+  position: relative;
+  top: -135px;
+}
