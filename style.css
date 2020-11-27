@@ -1,0 +1,71 @@
+@import url("flexbox.css");
+
+body {
+  font-family: 'Fira Code', monospace;
+  /*background-image: url("code.jpg");*/
+  /*background-size: 1000px;*/
+}
+
+.background-code {
+  /*background-image: url("code.jpg");*/
+  /*background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("code.jpg");*/
+  /*background-size: 1500px;*/
+}
+
+.background-white {
+  background-color: rgb(255, 255, 255);
+}
+
+.fs-50 {
+font-size: 50px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(0, 37, 173);
+  font-weight: 600;
+  transition: .3s ease;
+}
+
+.justify {
+  text-align: justify
+}
+
+a {
+  color: rgb(40, 191, 183);
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-link {
+  color: #000000;
+}
+
+.card-link:hover {
+  color: #000000;
+  font-weight: 400;
+}
+
+.card-background:hover {
+  background-color: rgba(40, 191, 183, 0.1);
+  transition: .2s ease-in;
+}
