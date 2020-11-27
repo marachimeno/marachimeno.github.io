@@ -1,4 +1,5 @@
 @import url("flexbox.css");
+@import url("media.css");
 
 body {
   font-family: 'Fira Code', monospace;
@@ -69,3 +70,15 @@ a {
   background-color: rgba(40, 191, 183, 0.1);
   transition: .2s ease-in;
 }
+
+.up-arrow {
+  position: relative;
+  top: 20px;
+}
+
+.down-arrow {
+  position: relative;
+  top: -85px;
+}
+
+

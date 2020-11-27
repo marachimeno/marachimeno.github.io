@@ -1,0 +1,13 @@
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 75px;
+  }
+
+  h4 {
+    font-size: 45px;
+  }
+
+  a {
+    font-size: 35px;
+  }
+}
